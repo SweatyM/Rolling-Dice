@@ -1,11 +1,13 @@
 import React from "react";
+import Die from './Die';
+import RollDice from './RollDice';
 import "./style.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className = 'App'>
+      <RollDice/>
+
     </div>
   );
 }
